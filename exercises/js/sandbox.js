@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   // 1.Select all of the div elements that have a class of "module"
   $("div.module").css("background-color", "yellow");
 
