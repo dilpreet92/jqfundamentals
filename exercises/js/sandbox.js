@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   // 1.Select all of the div elements that have a class of "module"
   $("div.module").css("background-color", "yellow");
 
@@ -6,10 +7,10 @@ $(document).ready(function() {
   // a)Directly Picking the li item by it's ID.
   $("#myListItem").css("background-color", "yellow");
 
-   b).By Picking Id of Second Li Element and then taking out the sibling.
-  //$("#listItem_2").next().css("background-color", "yellow");
+   //b).By Picking Id of Second Li Element and then taking out the sibling.
+  $("#listItem_2").next().css("background-color", "yellow");
 
-   c). By picking the Id of the list and finding the children li element
+   //c). By picking the Id of the list and finding the children li element
   $("#myList li:eq(2)").css("background-color", "yellow");
 
   // d).By picking the Id of the list and finding the children li element using find.
