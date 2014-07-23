@@ -26,8 +26,7 @@ $(document).ready(function() {
   alert("No. of hidden Elements are : " + hiddenElements.length);
 
   //5.Number of image elements having alt attribute
-  var imageElements = $("img[alt]").length;
-  alert("No. of Image Elements having alt attribute is :" + imageElements);
+  alert("No. of Image Elements having alt attribute is :" + $("img[alt]").length);
 
   //6.Select all of the odd table rows in the table body
   $("tr:odd").css("background-color", "yellow");
