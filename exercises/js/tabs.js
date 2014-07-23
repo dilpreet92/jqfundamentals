@@ -20,7 +20,7 @@ $(document).ready(function() {
   //Show Related Div Elements and Hiding Others
   function showDiv(textValue) {
     divModule.each(function() {
-      if($(this).find("h2").text() == textValue) {
+      if ($(this).find("h2").text() == textValue) {
         $(this).show();
       }
       else {
@@ -32,7 +32,7 @@ $(document).ready(function() {
   //Changing Class of the clicked List item and Removing The class From others.
   function changeClass(currenListItem) {
     unorderedListItem.each(function() {
-      if($(this).attr("id") == currenListItem.attr("id")) {
+      if ($(this).attr("id") == currenListItem.attr("id")) {
         $(this).addClass("current");
       }
       else {
