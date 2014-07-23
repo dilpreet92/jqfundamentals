@@ -22,12 +22,12 @@ $(document).ready(function() {
   $("label[for = q]").css("background-color", "yellow");
 
   //4.Number of hidden page elements
-  var hiddenElements = $("body").find(":hidden").not("script");
+  var hiddenElements = $(":hidden").not("script");
   alert("No. of hidden Elements are : " + hiddenElements.length);
 
   //5.Number of image elements having alt attribute
-  var imageAltElements = $("img[alt]").length;
-  alert("No. of Image Elements having alt attribute is :" + imageAltElements);
+  var imageElements = $("img[alt]").length;
+  alert("No. of Image Elements having alt attribute is :" + imageElements);
 
   //6.Select all of the odd table rows in the table body
   $("tr:odd").css("background-color", "yellow");
